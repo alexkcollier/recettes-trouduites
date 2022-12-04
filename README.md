@@ -1,16 +1,15 @@
-# Welcome to [Astro](https://astro.build)
+# Bienvenue à `recettes-trouduites`
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/s/github/withastro/astro/tree/latest/examples/basics)
+Des recettes traduites, que les traductions soiet bien faites ou non.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+Ce projet est une exercise d'apprentissage, à la fois en français et en Astro.
 
-![basics](https://user-images.githubusercontent.com/4677417/186188965-73453154-fdec-4d6b-9c34-cb35c248ae5b.png)
+Les recettes et la documentation seront rédigées en français, tout le
+code en anglais. Je privilégierai les termes franco-canadiens.
 
+## 🚀 Structure du projet
 
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
+Dans ce projet, vous trouverez les fichiers et dossiers suivants:
 
 ```
 /
@@ -18,7 +17,6 @@ Inside of your Astro project, you'll see the following folders and files:
 │   └── favicon.svg
 ├── src/
 │   ├── components/
-│   │   └── Card.astro
 │   ├── layouts/
 │   │   └── Layout.astro
 │   └── pages/
@@ -26,25 +24,27 @@ Inside of your Astro project, you'll see the following folders and files:
 └── package.json
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+Astro cherche les fichiers `.astro` ou `.md` dans le dossier `src/pages/`.
+Chaque fichier crée une route basée sur son nom.
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+Il y a rien de spécial dans `src/components/`. C'est où on met tous les
+composants.
 
-Any static assets, like images, can be placed in the `public/` directory.
+Tous les ressources statiques, comme des images, peuvent être placés dans
+`public/`.
 
-## 🧞 Commands
+## 🧞 Commandes
 
-All commands are run from the root of the project, from a terminal:
+| Commande               | Action                                                        |
+| :--------------------- | :------------------------------------------------------------ |
+| `npm install`          | Installer les dépendances                                     |
+| `npm run dev`          | Commencer le serveur local de dev `localhost:3000`            |
+| `npm run build`        | Compiler le site pour production dans `./dist/`               |
+| `npm run preview`      | Prévisualiser localement le build avant de le déployer        |
+| `npm run astro ...`    | Exécuter des commandes CLI comme `astro add`, `astro preview` |
+| `npm run astro --help` | Obtenir de l'aide avec Astro CLI                              |
 
-| Command                | Action                                             |
-| :--------------------- | :------------------------------------------------- |
-| `npm install`          | Installs dependencies                              |
-| `npm run dev`          | Starts local dev server at `localhost:3000`        |
-| `npm run build`        | Build your production site to `./dist/`            |
-| `npm run preview`      | Preview your build locally, before deploying       |
-| `npm run astro ...`    | Run CLI commands like `astro add`, `astro preview` |
-| `npm run astro --help` | Get help using the Astro CLI                       |
+## Aide
 
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+- [Documentation Astro](https://docs.astro.build)
+- [Discord server](https://astro.build/chat).
