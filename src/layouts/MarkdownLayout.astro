@@ -3,8 +3,9 @@ import type { MarkdownInstance } from 'astro';
 import type { MarkdownFrontmatter } from './MarkdownFrontmatter';
 import Layout from './Layout.astro';
 
-
-interface Props extends MarkdownInstance<MarkdownFrontmatter> {}
+export interface Props extends MarkdownInstance<MarkdownFrontmatter> {
+  frontmatter: MarkdownFrontmatter;
+}
 
 const { frontmatter } = Astro.props;
 ---
