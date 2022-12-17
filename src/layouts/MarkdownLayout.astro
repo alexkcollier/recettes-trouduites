@@ -1,7 +1,7 @@
 ---
 import type { MarkdownInstance } from 'astro';
-import type { MarkdownFrontmatter } from './MarkdownFrontmatter';
 import Layout from './Layout.astro';
+import type { MarkdownFrontmatter } from './MarkdownFrontmatter';
 
 export interface Props extends MarkdownInstance<MarkdownFrontmatter> {
   frontmatter: MarkdownFrontmatter;
@@ -11,7 +11,7 @@ const { frontmatter } = Astro.props;
 ---
 
 <Layout title={frontmatter.title}>
-  <div class="markdown-container">
+  <main class="markdown-container">
     <div>
       <a href="/">Liste</a>
     </div>
@@ -19,13 +19,13 @@ const { frontmatter } = Astro.props;
     <h1>{frontmatter.title}</h1>
 
     <slot />
-  </div>
+  </main>
 </Layout>
 
 <style>
   .markdown-container {
     margin: auto;
     padding: 1.5rem;
-    max-width: 60ch;
+    max-width: 80ch;
   }
 </style>

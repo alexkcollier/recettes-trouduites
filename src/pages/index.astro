@@ -1,6 +1,7 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import type { MarkdownFrontmatter } from '../layouts/MarkdownFrontmatter';
+import RecipePostList from '@components/RecipePostList.svelte';
+import Layout from '@layouts/Layout.astro';
+import type { MarkdownFrontmatter } from '@layouts/MarkdownFrontmatter';
 
 const md = await Astro.glob<MarkdownFrontmatter>('../pages/recettes/*.md');
 ---
@@ -9,15 +10,9 @@ const md = await Astro.glob<MarkdownFrontmatter>('../pages/recettes/*.md');
   <main>
     <h1>Recettes trouduites</h1>
 
-    <ul>
-      {
-        md.map((post) => (
-          <li>
-            <a href={post.url}>{post.frontmatter.title}</a>
-          </li>
-        ))
-      }
-    </ul>
+    <RecipePostList posts={md} />
+    <RecipePostList posts={md} />
+    <RecipePostList posts={md} />
   </main>
 </Layout>
 
@@ -25,8 +20,9 @@ const md = await Astro.glob<MarkdownFrontmatter>('../pages/recettes/*.md');
   main {
     margin: auto;
     padding: 1.5rem;
-    max-width: 60ch;
+    max-width: 80ch;
   }
+
   h1 {
     font-size: 3rem;
     font-weight: 800;
