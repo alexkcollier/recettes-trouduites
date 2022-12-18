@@ -4,6 +4,9 @@ import Layout from '@layouts/Layout.astro';
 import type { MarkdownFrontmatter } from '@layouts/MarkdownFrontmatter';
 
 const md = await Astro.glob<MarkdownFrontmatter>('../pages/recettes/*.md');
+const getTime = (val: string | number | Date) => new Date(val).getTime();
+
+md.sort((a, b) => getTime(b.frontmatter.date) - getTime(a.frontmatter.date));
 ---
 
 <Layout title="Recettes trouduites">
