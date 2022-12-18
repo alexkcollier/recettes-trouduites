@@ -15,7 +15,7 @@ const hasAttribution = frontmatter.sourceUrl && frontmatter.sourceText;
 <Layout title={frontmatter.title}>
   <div class="markdown-container">
     <nav>
-      <a href="/">Liste</a>
+      <a href="/">&#8592; Liste</a>
     </nav>
 
     <main>
@@ -26,6 +26,7 @@ const hasAttribution = frontmatter.sourceUrl && frontmatter.sourceText;
           <a href={frontmatter.sourceUrl}>{frontmatter.sourceText}</a>
         )
       }
+
       <slot />
     </main>
   </div>
@@ -36,5 +37,9 @@ const hasAttribution = frontmatter.sourceUrl && frontmatter.sourceText;
     margin: auto;
     padding: 1.5rem;
     max-width: 80ch;
+  }
+
+  .markdown-container :global(li):not(:last-child) {
+    padding-bottom: 1rem;
   }
 </style>
