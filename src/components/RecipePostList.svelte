@@ -14,6 +14,7 @@
           url={post.url}
           label={post.frontmatter.title}
           date={post.frontmatter.date}
+          attribution={post.frontmatter?.sourceText}
         />
       </li>
     {/if}

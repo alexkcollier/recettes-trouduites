@@ -3,6 +3,7 @@
   export let label: string;
   /** ISO date string */
   export let date: string;
+  export let attribution: string | undefined;
 
   const formatter = new Intl.DateTimeFormat(['fr-CA'], {
     day: 'numeric',
@@ -11,6 +12,7 @@
   });
 
   const dateValue = new Date(date.replace('Z', ''));
+  const attributionText = attribution ? ` • ${attribution}` : '';
 </script>
 
 <article>
@@ -20,6 +22,7 @@
 
   <footer>
     {formatter.format(dateValue)}
+    {attributionText}
   </footer>
 </article>
 
