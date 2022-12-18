@@ -1,6 +1,7 @@
 <script lang="ts">
   export let url: string;
   export let label: string;
+  /** ISO date string */
   export let date: string;
 
   const formatter = new Intl.DateTimeFormat(['fr-CA'], {
@@ -9,7 +10,7 @@
     year: 'numeric',
   });
 
-  const dateValue = new Date(date);
+  const dateValue = new Date(date.replace('Z', ''));
 </script>
 
 <article>
