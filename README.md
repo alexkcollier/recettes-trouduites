@@ -1,6 +1,6 @@
 # Bienvenue à `recettes-trouduites`
 
-Des recettes traduites, que les traductions soiet bien faites ou non.
+Des recettes traduites, que les traductions soient bien faites ou non.
 
 Ce projet est une exercise d'apprentissage, à la fois en français et en Astro.
 
