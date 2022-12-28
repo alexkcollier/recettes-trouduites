@@ -15,6 +15,7 @@
   "dependencies": {
     "@astrojs/svelte": "^1.0.2",
     "astro": "^1.6.12",
+    "astro-netlify-cms": "^0.5.0",
     "svelte": "^3.54.0"
   },
   "devDependencies": {
