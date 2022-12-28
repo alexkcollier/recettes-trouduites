@@ -29,7 +29,7 @@ export default defineConfig({
               {
                 name: 'title',
                 widget: 'string',
-                label: 'Title',
+                label: 'Titre',
               },
               {
                 name: 'date',
@@ -40,19 +40,19 @@ export default defineConfig({
               {
                 name: 'sourceUrl',
                 widget: 'string',
-                label: 'Source URL',
+                label: 'URL de source',
                 required: false,
               },
               {
                 name: 'sourceText',
                 widget: 'string',
-                label: 'Source Text',
+                label: 'Texte de source',
                 required: false,
               },
               {
                 name: 'body',
                 widget: 'markdown',
-                label: 'Body',
+                label: 'Corps',
               },
             ],
           },
