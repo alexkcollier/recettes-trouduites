@@ -9,8 +9,8 @@ Merci à Marcela Hazan pour l'inspiration.
 
 - 1 canette de tomates (746 ml)
 - un oignon moyen, coupé en deux
-- 1 cuillère à thé de beurre
-- 1 cuillère à thé d'huile d'olive (ou plus de beurre)
+- 1 cuillère à soupe de beurre
+- 1 cuillère à soupe d'huile d'olive (ou plus de beurre)
 - 2 gousses d'ail, tranchées
 - une pincée de flocons de piment
 - du sel, au goût
