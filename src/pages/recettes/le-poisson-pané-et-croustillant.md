@@ -1,9 +1,9 @@
 ---
-layout: '@layouts/MarkdownLayout.astro'
-title: Le poisson pané et croustillant
+layout: "@layouts/MarkdownLayout.astro"
+title: Poisson pané et croustillant
+date: 2022-12-26
 sourceUrl: https://www.seriouseats.com/the-easiest-crispy-pan-seared-fish-food-lab-recipe
 sourceText: Adaptée de Kenji Lopez-Alt, Serious Eats
-date: 2022-12-26
 ---
 
 ## Ingrédients
