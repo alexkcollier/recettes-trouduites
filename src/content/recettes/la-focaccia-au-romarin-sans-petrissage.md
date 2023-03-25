@@ -1,5 +1,4 @@
 ---
-layout: '@layouts/MarkdownLayout.astro'
 title: Focaccia au romarin sans pétrissage
 date: 2022-12-04
 sourceUrl: https://www.seriouseats.com/easy-no-knead-olive-rosemary-pistachio-focaccia-kenji-recipe

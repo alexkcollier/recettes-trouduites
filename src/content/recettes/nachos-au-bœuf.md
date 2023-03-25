@@ -1,5 +1,4 @@
 ---
-layout: '@layouts/MarkdownLayout.astro'
 title: Nachos au bœuf
 date: 2023-03-25T14:36:39.495Z
 ---

@@ -1,0 +1,21 @@
+---
+import MarkdownLayout from '@layouts/MarkdownLayout.astro';
+import { getCollection } from 'astro:content';
+
+// eslint-disable-next-line import/prefer-default-export
+export async function getStaticPaths() {
+  const entries = await getCollection('recettes');
+
+  return entries.map((entry) => ({
+    params: { slug: entry.slug },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await entry.render();
+---
+
+<MarkdownLayout frontmatter={entry.data}>
+  <Content />
+</MarkdownLayout>

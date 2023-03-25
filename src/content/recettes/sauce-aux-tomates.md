@@ -1,5 +1,4 @@
 ---
-layout: '@layouts/MarkdownLayout.astro'
 title: Sauce aux tomates
 date: 2023-02-11T15:15:24.185Z
 ---

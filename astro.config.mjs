@@ -17,16 +17,10 @@ export default defineConfig({
           {
             name: 'recettes',
             label: 'Recette',
-            folder: 'src/pages/recettes',
+            folder: 'src/content/recettes',
             create: true,
             delete: true,
             fields: [
-              {
-                name: 'layout',
-                label: 'layout',
-                widget: 'hidden',
-                default: '@layouts/MarkdownLayout.astro',
-              },
               {
                 name: 'title',
                 widget: 'string',

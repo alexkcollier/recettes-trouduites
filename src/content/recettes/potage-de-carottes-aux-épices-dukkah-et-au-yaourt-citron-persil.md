@@ -1,5 +1,4 @@
 ---
-layout: '@layouts/MarkdownLayout.astro'
 title: Potage de carottes aux épices dukkah avec du yaourt citron-persil
 date: 2022-12-31T16:20:39.836Z
 sourceUrl: https://www.seriouseats.com/spicy-carrot-and-ginger-soup-with-harissa
