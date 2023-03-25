@@ -1,8 +1,9 @@
 ---
-layout: "@layouts/MarkdownLayout.astro"
+layout: '@layouts/MarkdownLayout.astro'
 title: Sauce aux tomates
 date: 2023-02-11T15:15:24.185Z
 ---
+
 Merci à Marcela Hazan pour l'inspiration.
 
 ## Ingrédients
@@ -14,7 +15,6 @@ Merci à Marcela Hazan pour l'inspiration.
 - 2 gousses d'ail, tranchées
 - une pincée de flocons de piment
 - du sel, au goût
-
 
 ## Préparation
 
