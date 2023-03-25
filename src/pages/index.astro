@@ -1,12 +1,13 @@
 ---
 import RecipePostList from '@components/RecipePostList.svelte';
 import Layout from '@layouts/Layout.astro';
-import type { MarkdownFrontmatter } from '@layouts/MarkdownFrontmatter';
+import { getCollection } from 'astro:content';
 
-const md = await Astro.glob<MarkdownFrontmatter>('../pages/recettes/*.md');
+const posts = await getCollection('recettes');
+
 const getTime = (val: string | number | Date) => new Date(val).getTime();
 
-md.sort((a, b) => getTime(b.frontmatter.date) - getTime(a.frontmatter.date));
+posts.sort((a, b) => getTime(b.data.date) - getTime(a.data.date));
 ---
 
 <Layout title="Recettes trouduites">
@@ -19,7 +20,7 @@ md.sort((a, b) => getTime(b.frontmatter.date) - getTime(a.frontmatter.date));
       traductions) n'est pas garantie.
     </p>
 
-    <RecipePostList posts={md} />
+    <RecipePostList posts={posts} />
   </main>
 </Layout>
 

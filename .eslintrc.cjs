@@ -21,5 +21,11 @@ module.exports = {
         extraFileExtensions: ['.astro'],
       },
     },
+    {
+      files: ['*.astro', '*.mjs'],
+      rules: {
+        'import/no-unresolved': 'off',
+      },
+    },
   ],
 };

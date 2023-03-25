@@ -1,17 +1,17 @@
 ---
-import type { MarkdownInstance } from 'astro';
-import formatDate from '../utils/formatDate';
+import type { CollectionEntry } from 'astro:content';
+import formatDate from 'src/utils/formatDate';
 import Layout from './Layout.astro';
-import type { MarkdownFrontmatter } from './MarkdownFrontmatter';
 
-export interface Props extends MarkdownInstance<MarkdownFrontmatter> {
-  frontmatter: MarkdownFrontmatter;
+type Frontmatter = CollectionEntry<'recettes'>['data'];
+export interface Props {
+  frontmatter: Frontmatter;
 }
 
 const { frontmatter } = Astro.props;
 
 const hasAttribution = frontmatter.sourceUrl && frontmatter.sourceText;
-const date = formatDate(frontmatter.date);
+const { date } = frontmatter;
 ---
 
 <Layout title={frontmatter.title}>
@@ -25,7 +25,7 @@ const date = formatDate(frontmatter.date);
         <h1>{frontmatter.title}</h1>
 
         <div class="attribution">
-          <time>{date}</time>
+          <time>{formatDate(date)}</time>
           {
             hasAttribution && (
               <>

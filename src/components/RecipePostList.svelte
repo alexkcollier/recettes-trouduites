@@ -1,20 +1,19 @@
 <script lang="ts">
   import RecipePostItem from '@components/RecipePostItem.svelte';
-  import type { MarkdownFrontmatter } from '@layouts/MarkdownFrontmatter';
-  import type { MarkdownInstance } from 'astro';
+  import type { CollectionEntry } from 'astro:content';
 
-  export let posts: readonly MarkdownInstance<MarkdownFrontmatter>[];
+  export let posts: CollectionEntry<'recettes'>[];
 </script>
 
 <ul>
   {#each posts as post}
-    {#if post.url}
+    {#if post.slug}
       <li>
         <RecipePostItem
-          url={post.url}
-          label={post.frontmatter.title}
-          date={post.frontmatter.date}
-          attribution={post.frontmatter?.sourceText}
+          url={`/${post.collection}/${post.slug}`}
+          label={post.data.title}
+          date={post.data.date}
+          attribution={post.data?.sourceText}
         />
       </li>
     {/if}

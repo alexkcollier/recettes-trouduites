@@ -3,8 +3,7 @@
 
   export let url: string;
   export let label: string;
-  /** ISO date string */
-  export let date: string;
+  export let date: Date;
   export let attribution: string | undefined;
 
   const attributionText = attribution ? ` • ${attribution}` : '';

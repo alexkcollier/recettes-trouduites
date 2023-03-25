@@ -1,22 +1,22 @@
 ---
-layout: "@layouts/MarkdownLayout.astro"
 title: Nachos au bœuf
 date: 2023-03-25T14:36:39.495Z
 ---
+
 ## Ingrédients
 
 - 1 poivron rouge, coupé en dés
 - 1 oignon petit ou moyen, coupé en dés
-- 1 piment jalapeño, haché 
-- 2-4 gousses d'ail, tranchées 
+- 1 piment jalapeño, haché
+- 2-4 gousses d'ail, tranchées
 - 3 oignons verts, tranchés. Garder les parties vertes séparées.
 - Un tiers de tasse de haricots noirs secs
-- 300-400g de bœuf haché 
+- 300-400g de bœuf haché
 - 340g (ou plus) de fromage râpé
 - 2 cuillères à soupe d'assaisonnement fajitas (un mélange de cumin, d'origan, de poudre de piment, de poudre d'ail et de fécule de maïs)
 - 1 cuillère à soupe de pâte de tomate
 - Une demie tasse de bouillon de poulet
-- 2 cuillères à thé de sauce Worcestershire 
+- 2 cuillères à thé de sauce Worcestershire
 - Le jus d'une lime
 - Sel, au goût
 

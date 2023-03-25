@@ -1,5 +1,4 @@
 ---
-layout: "@layouts/MarkdownLayout.astro"
 title: Soupe aux fèves à l'Instant Pot
 date: 2022-12-18
 ---
