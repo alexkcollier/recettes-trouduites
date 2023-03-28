@@ -18,12 +18,13 @@ date: 2023-03-25T14:36:39.495Z
 - Une demie tasse de bouillon de poulet
 - 2 cuillères à thé de sauce Worcestershire
 - Le jus d'une lime
+- Des chips de tortillas
 - Sel, au goût
 
 ## Préparation
 
 1. Faire bouillir les haricots dans de l'eau bien salée, jusqu'à ce qu'ils soient tendres, 1 heure à 1 heure et demie
-2. Sur feu vif, chauffer un peu d'huile dans un poêle. Ajouter le bœuf. Ne pas le bouger jusqu'à ce qu'un côté soit bien doré.
+2. Sur feu vif, chauffer un peu d'huile dans une poêle. Ajouter le bœuf. Ne pas le bouger jusqu'à ce qu'un côté soit bien doré.
 3. Une fois que le bœuf est doré, le pousser vers les bords de la poêle et ajouter l'oignon et l'ail au centre. Faire cuire jusqu'à ce qu'ils soient tendres.
 4. Ajouter les épices. Tout mélanger.
 5. Pousser tout vers les bords et ajouter la pâte de tomate. Faire cuire jusqu'à ce qu'elle devienne rouge foncé puis mélanger avec le bœuf.
@@ -32,5 +33,5 @@ date: 2023-03-25T14:36:39.495Z
 8. Une fois que les haricots sont cuits, les égoutter.
 9. Régler le four à 425 °F.
 10. Couvrir une plaque de cuisson avec du papier d'aluminium et du papier parchemin. Déposer une couche de chips de tortillas suivie par une couche de tous les autres ingrédients (y compris un peu de fromage, mais pas les parties vertes des oignons verts). Faire une deuxième couche.
-11. Placer la plaque au four. Faire cuire 10-12 minutes jusqu'à ce que le fromage fond et les chips commencent à dorer.
+11. Placer la plaque au four. Faire cuire 10-12 minutes jusqu'à ce que le fromage fonde et les chips commencent à dorer.
 12. Retirer les nachos du four. Garnir d'oignons verts.
